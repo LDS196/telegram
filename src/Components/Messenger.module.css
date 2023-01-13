@@ -1,0 +1,42 @@
+.messenger{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    border: 1px solid #61dafb;
+
+}
+.menu{
+    display: flex;
+    margin-bottom: 20px;
+}
+.error{
+    color: red;
+}
+.message{
+    list-style: none;
+    padding: 2px;
+    border: 1px solid #61dafb;
+    border-radius: 5px;
+    margin-bottom: 3px;
+    display: flex;
+    gap: 0 10px;
+    min-width: 200px;
+
+}
+.ava{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.user1{
+    background-color: lightpink;
+}
+.user2{
+    background-color: silver;
+}
